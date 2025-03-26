@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:AlemanCurso/mi_widgets/mi_tarjeta.dart';
+import 'package:AlemanCurso/mi_widgets/dialogo_acerca_de.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 
@@ -19,7 +20,8 @@ class MiTarjeta extends StatelessWidget {
           title: const Text("Flutter Aleman"),
           centerTitle: true,
         ),
-        body: const LaTarjeta(),
+        //body: const LaTarjeta(),
+        body: const DialogoAcercaDe(),
       ),
     );
   }
