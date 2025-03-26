@@ -11,7 +11,7 @@ class TituloDeLista extends StatelessWidget {
         icon: Icon(Icons.info),
         applicationIcon: FlutterLogo(),
         applicationLegalese: 'Legal',
-        applicationName: 'Flutter App',
+        applicationName: 'Flutter App 1123',
         applicationVersion: 'version 1.0.0',
         aboutBoxChildren: [
           Text('Este texto es creado por Lista'),
